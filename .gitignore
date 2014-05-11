@@ -1,0 +1,26 @@
+.DS_Store
+
+#
+# Project specific rules
+#
+
+# Ignore GitHub settings file (each developer should have a separate local
+# copy of it)
+/.githubsettings
+
+# Statically compiled web site
+/converted-html/
+
+# Automatically compiled Sass and CoffeeScript asset files
+/output/
+
+# Collections' cache directory
+/collections/.cache/
+
+# Other automatically generated files
+/models/_sitemap.json
+
+#logfiles
+*.log
+
+assets/bower_components
